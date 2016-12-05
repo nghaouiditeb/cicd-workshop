@@ -26,6 +26,6 @@ spec:
     spec:
       containers:
       - name: otoorders
-        image: otomato/springorders:master
+        image: antweiss/otoorders:master
         ports:
         - containerPort: 8080
