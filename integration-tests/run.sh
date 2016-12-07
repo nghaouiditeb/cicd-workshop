@@ -1,5 +1,8 @@
 #! /bin/bash -x
 # Integration test for the product ordering application. 
+# This is not in fact an integration test. 
+# The real stuff would be adding some selenium/phantomjs tests with real UI interaction
+# Will implement in the future
 
 curl ${CODEFRESH_ENV_URL} | grep 'Register products'
 
