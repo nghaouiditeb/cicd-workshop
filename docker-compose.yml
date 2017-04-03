@@ -7,7 +7,7 @@ services:
     ports:
      - 3000
   otoprod:
-    image: 'antweiss/oto-products:7'
+    image: 'otomato/oto-products:7'
     ports:
      - 5000
     links:
