@@ -28,6 +28,6 @@ spec:
     spec:
       containers:
       - name: products
-        image: otomato/oto-products:2
+        image: nizgh/oto-products:2
         ports:
         - containerPort: 5000
